@@ -1,0 +1,25 @@
+* {
+	font-family: 'Raleway', sans-serif !important;
+	color: #fff;
+}
+
+.grad30{
+	background: linear-gradient( rgb(83,0,96) 35%, rgb(214,9,134));	
+}
+
+/* altura definida */
+.vh100 {
+	height: 100vh;
+}
+
+/* para centrar todo */
+.container-flex-column{
+	/* el eje principal es la columna guiarse del video */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+
+/* estilos register */
+
