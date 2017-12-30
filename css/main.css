@@ -23,3 +23,15 @@
 
 /* estilos register */
 
+.taxi figure{
+	/* background-image: url('../assets/images/taxi.jpg'); */
+	background-image: url('../assets.images/hero.gif');
+	/* background-size: cover; */
+	/* tratar de cortar la img */
+}
+
+.logo {
+	width: 10vh;
+	position: absolute;
+	/* centrar el logo */
+}
