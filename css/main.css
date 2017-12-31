@@ -7,32 +7,45 @@
 	background: linear-gradient( rgb(83,0,96) 35%, rgb(214,9,134));	
 }
 
-/* altura definida */
+/* clases reutilizables */
 .vh100 {
 	height: 100vh;
 }
 
-/* para centrar todo */
 .container-flex-column{
-	/* el eje principal es la columna guiarse del video */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 2em;
 }
 
-/* estilos register */
-
-.taxi figure{
-	/* background-image: url('../assets/images/taxi.jpg'); */
-	/* background-image: url('../assets.images/hero.gif'); */
-	/* background-size: cover; */
-	/* tratar de cortar la img */
-	/* text-align: center; */
+.container-flex{
+	display: flex;
+	justify-content: center;
 }
 
-.logo {
-	width: 10vh;
-	position: absolute;
-	/* centrar el logo */
+/* estilos register */
+.background{
+	background-image: url('../assets/images/taxi.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+img[alt="logo-white"]{
+	width: 13vh;
+	margin: 0 9em;
+}
+
+img[alt="logo-pink"]{
+	width: 40vh;
+	height: 50vh;
+}
+
+.taxi a{
+	position: relative;
+	top: 10em;
+	padding: 1em 2em;
+	margin: 0.2em;
+	background-color: rgba(50, 50, 54, 0.3);
+	color: rgb(255, 255, 255);
 }
