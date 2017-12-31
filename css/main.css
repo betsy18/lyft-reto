@@ -1,3 +1,4 @@
+/* estilos generales */
 * {
 	font-family: 'Raleway', sans-serif !important;
 }
@@ -5,11 +6,16 @@
 body {
 	background: linear-gradient( rgb(250, 223, 255) 35%, rgb(255, 219, 242));	
 }
+
+hr{
+	border: 0.1rem solid rgb(83,0,96);
+}
+
+/* clases reutilizables */
 .grad30{
 	background: linear-gradient( rgb(83,0,96) 35%, rgb(214,9,134));	
 }
 
-/* clases reutilizables */
 .vh100 {
 	height: 100vh;
 }
@@ -24,6 +30,16 @@ body {
 .container-flex{
 	display: flex;
 	justify-content: center;
+}
+
+.icon-left{
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 1em;
+	font-size: 1.8em;
+	color: rgb(0, 0, 0);
+	padding: 0em 0.2em;
+	position: relative;
+	top: 0.8em;
 }
 
 .boton{
@@ -60,17 +76,6 @@ img[alt="logo-pink"]{
 }
 
 /* estilos signup */
-
-.signup a{
-	border: 1px solid rgb(0, 0, 0);
-	border-radius: 1em;
-	font-size: 1.8em;
-	color: rgb(0, 0, 0);
-	padding: 0em 0.2em;
-	position: relative;
-	top: 0.8em;
-}
-
 .signup h4, .signup hr{
 	text-align: center;
 }
