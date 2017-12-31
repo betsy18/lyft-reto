@@ -68,11 +68,20 @@ img[alt="logo-pink"]{
 	top: 0.8em;
 }
 
-.signup p, .signup hr{
+.signup h4, .signup hr{
 	text-align: center;
 }
 
 /* estilos verify */
 .verify h4, .verify form{
+	text-align: center;
+}
+
+/* estilos login */
+.two-fields input {
+	width:50% !important;
+}
+
+.login h4, .login form{
 	text-align: center;
 }
