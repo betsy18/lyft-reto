@@ -71,3 +71,8 @@ img[alt="logo-pink"]{
 .signup p, .signup hr{
 	text-align: center;
 }
+
+/* estilos verify */
+.verify h4, .verify form{
+	text-align: center;
+}
