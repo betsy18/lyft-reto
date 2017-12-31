@@ -2,6 +2,9 @@
 	font-family: 'Raleway', sans-serif !important;
 }
 
+body {
+	background: linear-gradient( rgb(250, 223, 255) 35%, rgb(255, 219, 242));	
+}
 .grad30{
 	background: linear-gradient( rgb(83,0,96) 35%, rgb(214,9,134));	
 }
