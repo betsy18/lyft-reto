@@ -28,26 +28,24 @@
 					<form method="POST" class="form-inline col-xs-12">
 						<div class="form-group two-fields">
 							<div class="input-group">
-								<!-- <label class="sr-only" for="exampleInputEmail2">Email address</label> -->
 								<span class="input-group-addon glyphicon glyphicon-user"></span>
-								<input type="text" class="form-control" id="exampleInputEmail2" placeholder="First name">
-								<input type="text" class="form-control" id="exampleInputEmail2" placeholder="Last name">
+								<input type="text" class="form-control" id="txtName" placeholder="First name">
+								<input type="text" class="form-control" id="txtLastName" placeholder="Last name">
 							</div>
 						</div>
 						<div class="form-group">
 							<div class="input-group">
-								<!-- <label class="sr-only" for="exampleInputEmail2">Email address</label> -->
 								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
-								<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+								<input type="email" class="form-control" id="txtEmail" placeholder="Enter email" required>
 							</div>
 						</div>
 						<div class="checkbox">
-							<label>
-								<input type="checkbox"> I agree to Lyft's
-								<a>Terms of service</a>
-							</label>
-						</div>
-						<button type="submit" class="btn btn-default boton btn-lg">Next</button>
+								<label>
+									<input type="checkbox" id="chkBox"> I agree to Lyft's
+									<a>Terms of service</a>
+								</label>
+							</div>
+						<button type="submit" id="btnNext" class="btn btn-default boton btn-lg">Next</button>
 					</form>
 				</div>
 			</div>
