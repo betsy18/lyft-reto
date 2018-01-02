@@ -17,6 +17,7 @@ $(document).ready(function() {
 
   // eventos
   $nroCel.on('input', function(event) {
+    event.preventDefault();
     console.log(event.target.value);
     if ($(this).val().length === 9) {
       $btnNext.attr('disabled', false);
@@ -26,8 +27,11 @@ $(document).ready(function() {
   });
 
   $btnNext.on('click', function(event) {
-    var random = Math.floor(Math.random() * (999) + 1);
-    alert('Tu código: LAB-' + random);
+    event.preventDefault();
+    var $random = Math.floor(Math.random() * (999) + 1);
+    alert('Tu código: LAB-' + $random);
+    localStorage.setItem('cod', $random);
+    window.location.href = '../views/verify.html';
   });
 });
 
